@@ -1,9 +1,10 @@
-import { Category as CategoryDiv } from './styled'
+import { Category as CategoryDiv } from "./styled";
 
-export const Category = ( e: any ) => {
-    return (
-        <CategoryDiv>
-            {e.category}
-        </CategoryDiv>
-    )
+interface CategoryTypes {
+  click: () => void;
+  name: string;
 }
+
+export const Category = (props: CategoryTypes) => {
+  return <CategoryDiv onClick={props.click}>{props.name}</CategoryDiv>;
+};
