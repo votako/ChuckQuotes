@@ -9,11 +9,12 @@ export const Body = styled.div`
 
 export const Main = styled.div`
   height: 100vh;
-  background-color: grey;
+  background-color: #f5f5f5;
 `;
 export const Categories = styled.div`
   position: absolute;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 `;

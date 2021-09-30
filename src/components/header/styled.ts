@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Header = styled.div`
   width: 100%;
   height: 60px;
-  background-color: blue;
+  background-color: #402ad5;
 `;
 
 export const HeaderImg = styled.img`
@@ -18,6 +18,8 @@ export const HeaderImg = styled.img`
 export const HeaderText = styled.div`
   width: auto;
   height: auto;
-  padding-top: 15px;
+  padding-top: 1.5%;
   color: white;
+  font-family: Gill Sans, sans-serif;
+  font-weight: bold;
 `;
