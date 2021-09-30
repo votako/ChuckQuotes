@@ -1,9 +1,5 @@
-import { Joke as JokeDiv } from './styled'
+import { Joke as JokeDiv } from "./styled";
 
-export const Joke = (props: any) => {
-    return (
-        <JokeDiv>
-            {props.value}
-        </JokeDiv>
-    )
-}
+export const Joke = (props: { value: string }) => {
+  return <JokeDiv>{props.value}</JokeDiv>;
+};

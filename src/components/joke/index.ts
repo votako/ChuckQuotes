@@ -1,2 +1,2 @@
-import {Joke} from './joke'
-export default Joke
+import { Joke } from "./joke";
+export default Joke;
